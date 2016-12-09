@@ -15,7 +15,7 @@ user.gradle
 /.settings
 *.classpath
 *.project
-
+/src/test/java/resources/testing.properties
 /subprojects/groovy-ant/bin
 /subprojects/groovy-ant/.project
 /subprojects/groovy-ant/.settings

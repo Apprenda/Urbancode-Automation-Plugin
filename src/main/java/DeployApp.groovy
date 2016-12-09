@@ -3,7 +3,7 @@ import main.java.urbancode.AirPluginTool
 import groovy.util.logging.Slf4j
 
 @Slf4j
-public class InternalDeployApp {
+class InternalDeployApp {
 	def detectVersion(versionInfo, props)
 	{
 		log.info("Starting version detection.")

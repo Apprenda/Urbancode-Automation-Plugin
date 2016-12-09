@@ -27,7 +27,7 @@ class ApprendaClient {
 			client.ignoreSSLIssues()
 		}
 		def resp = client.post(
-				path:Constants.REST_API_PATHS.Auth,
+				path:main.java.Constants.REST_API_PATHS.Auth,
 				body:[
 						username:props.ApprendaUser,
 						password:props.ApprendaPassword,
